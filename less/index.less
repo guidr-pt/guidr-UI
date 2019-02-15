@@ -4,20 +4,42 @@ body{
   text-align: center;
 }
 div{
-  margin: 10% 30px ;
+  margin: 0;
 }
+
+img{
+  width: 100%;
+  z-index: 1;
+}
+
+header {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+}
+
+
 .menu-container {
+  z-index: 2;
   width: 35px;
   height: 30px;
   margin: 10px 10px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
   cursor: pointer;
   display: inline-block;
-  z-index: 2;
 }
+
 .menu-button span{
   background-color: black;
   position: absolute;
+  z-index: 2;
   border-radius: 2px;
   transition: .3s cubic-bezier(.8, .5, .2, 1.4);
   width:100%;
@@ -57,21 +79,26 @@ div{
   top: 13px;
 }
 
+
 li {
-  color: white;
+  color: black;
 }
 
 .menu {
   display: none;
 }
 
-.menu li{
+.menu li {
   list-style-type: none;
   font-size: 32px;
   padding: 30px 0;
-  text-align: center;
 }
 
 .menu-open {
+  width: 458px;
+  border: 1px solid red;
+  background: white;
   display: block;
+  position: absolute;
+  right: -10px;
 }
