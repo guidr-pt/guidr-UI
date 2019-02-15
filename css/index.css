@@ -15,6 +15,7 @@ header {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .container {
   width: 100%;
@@ -31,7 +32,7 @@ a {
   display: inline-block;
 }
 .menu-button span {
-  background-color: black;
+  background-color: #fff;
   position: absolute;
   z-index: 2;
   border-radius: 2px;
@@ -73,21 +74,38 @@ a {
   top: 13px;
 }
 li {
-  color: black;
+  color: #fff;
+  text-align: center;
 }
 .menu {
   display: none;
 }
+.menu ul {
+  border-bottom: 1px solid black;
+}
 .menu li {
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
   list-style-type: none;
   font-size: 32px;
-  padding: 30px 0;
+  padding: 0;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
 }
 .menu-open {
   width: 458px;
   border: 1px solid red;
-  background: white;
   display: block;
   position: absolute;
   right: -10px;
+  padding: 0 2%;
+  margin-top: 0;
+  margin-right: 20px;
 }
