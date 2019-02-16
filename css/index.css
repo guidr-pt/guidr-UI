@@ -146,11 +146,23 @@ a {
   display: inline-block;
 }
 h1 {
-  font-weight: bold;
+  font-family: 'Skranji', cursive;
   font-size: 2rem;
 }
 p {
-  margin: 0 5%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 41px 5%;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #fff;
+  height: 35px;
+  width: 30%;
+  border-radius: 23px;
+  text-align: center;
+  background-image: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
+  cursor: pointer;
 }
 .container {
   width: 100%;
