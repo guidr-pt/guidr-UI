@@ -166,6 +166,19 @@ button {
 }
 .container {
   width: 100%;
+  position: relative;
+}
+.logo {
+  color: #fff;
+  font-family: 'Give You Glory', cursive;
+  font-size: 1.6rem;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .menu-container {
   z-index: 2;
@@ -262,5 +275,4 @@ li {
   height: 50vh;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
