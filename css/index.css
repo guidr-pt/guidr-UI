@@ -138,8 +138,15 @@ img {
   width: 100%;
   z-index: 1;
 }
-header {
-  width: 100%;
+@media (min-width: 1000px) {
+  img {
+    height: 100vh;
+  }
+}
+@media (min-width: 1000px) {
+  header {
+    width: 50vw;
+  }
 }
 a {
   text-decoration: none;
@@ -167,6 +174,12 @@ button {
 .container {
   width: 100%;
   position: relative;
+}
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 .logo {
   color: #fff;
@@ -275,4 +288,9 @@ li {
   height: 50vh;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 1000px) {
+  .main {
+    width: 50vw;
+  }
 }
