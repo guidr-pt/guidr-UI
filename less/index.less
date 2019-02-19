@@ -51,6 +51,9 @@ button {
   text-align: center;
   background-image: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
   cursor: pointer;
+  @media @desktop {
+    width: 20%;
+  }
 }
 .container {
   width: 100%;
@@ -182,5 +185,9 @@ li {
   align-items: center;
   @media @desktop {
     width: 50vw;
+    height: 100vh;
+    h1 {
+      font-size: 3rem;
+    }
   }
 }

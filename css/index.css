@@ -126,7 +126,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-span {
+.team-text {
   background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
   color: transparent;
   -webkit-background-clip: text;
@@ -176,6 +176,11 @@ button {
   text-align: center;
   background-image: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
   cursor: pointer;
+}
+@media (min-width: 1000px) {
+  button {
+    width: 20%;
+  }
 }
 .container {
   width: 100%;
@@ -298,5 +303,9 @@ li {
 @media (min-width: 1000px) {
   .main {
     width: 50vw;
+    height: 100vh;
+  }
+  .main h1 {
+    font-size: 3rem;
   }
 }
