@@ -126,6 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.carousel img {
+  display: none;
+  margin: 0px auto;
+}
+.carousel .visible img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
 .team-text {
   background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
   color: transparent;
@@ -266,18 +275,6 @@ li {
 .menu li a {
   text-decoration: none;
   color: #fff;
-}
-.menu .sign-up {
-  background: white;
-}
-.menu .sign-up span {
-  color: black;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-}
-.menu .login {
-  border: 3px solid white;
-  width: 452px;
 }
 .menu-open {
   width: 458px;
