@@ -1,5 +1,4 @@
-let carousel = document.querySelector('.carousel');
-let figures = carousel.querySelectorAll('figure');
+let figures = document.getElementsByTagName('figure');
 let slideInterval = 4000;
 let pointer = 0;
 
@@ -20,3 +19,5 @@ function moveForward() {
 function startPlayback() {
  setTimeout(moveForward, slideInterval);
 }
+
+startPlayback();
