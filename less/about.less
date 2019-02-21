@@ -1,12 +1,25 @@
 
 .about-container {
+  @media @desktop {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: @main-text;
     font-size: 2rem;
+    @media @desktop {
+      height: 10vh;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 }
+
 
 .team-text {
   background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
@@ -14,6 +27,13 @@
    -webkit-background-clip: text;
    background-clip: text;
 }
+
+.about-content {
+  @media @desktop {
+    display: flex;
+  }
+}
+
 
 .col-1 {
   display: flex;
@@ -25,7 +45,17 @@
 
 .info-container {
   margin: 0 10px;
+  @media @desktop {
+    height: 75vh;
+  }
+  img {
+    @media @desktop {
+    width: 100%;
+    height: auto;
+    }
+  }
 }
+
 
 .text-container {
   h3 {
