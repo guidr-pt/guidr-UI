@@ -135,6 +135,12 @@ table {
   position: relative;
   overflow: hidden;
 }
+.about-container h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
 .team-text {
   background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
   color: transparent;
@@ -144,11 +150,23 @@ table {
 .col-1 {
   display: flex;
 }
-.info-container {
-  width: 50%;
-}
 .col-2 {
   display: flex;
+}
+.info-container {
+  margin: 0 10px;
+}
+.text-container h3 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0;
+}
+.text-container p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
 }
 body {
   padding: 0;
