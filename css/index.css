@@ -141,6 +141,15 @@ table {
   -webkit-background-clip: text;
   background-clip: text;
 }
+.col-1 {
+  display: flex;
+}
+.info-container {
+  width: 50%;
+}
+.col-2 {
+  display: flex;
+}
 body {
   padding: 0;
   margin: 0;
