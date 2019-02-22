@@ -252,9 +252,16 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  display: inline-block;
+  display: none;
   margin-top: 10px;
   margin-left: 10px;
+  width: 15%;
+  height: auto;
+}
+@media (min-width: 1000px) {
+  .logo {
+    display: inline-block;
+  }
 }
 .menu-container {
   z-index: 2;

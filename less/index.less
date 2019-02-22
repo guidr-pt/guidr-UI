@@ -60,9 +60,14 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  display: inline-block;
+  display: none;
   margin-top: 10px;
   margin-left: 10px;
+  width: 15%;
+  height: auto;
+  @media @desktop {
+    display: inline-block;
+  }
 }
 
 
