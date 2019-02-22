@@ -153,6 +153,9 @@ table {
     width: 15%;
   }
 }
+.about-container .menu-button span {
+  background-color: black;
+}
 .about-container h2 {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -196,6 +199,9 @@ table {
     width: 100%;
     height: auto;
   }
+}
+.text-container {
+  padding-bottom: 10px;
 }
 .text-container h3 {
   font-weight: 600;
