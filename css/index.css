@@ -1,0 +1,426 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.carousel img {
+  display: none;
+  margin: 0px auto;
+}
+.carousel .visible img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 1000px) {
+  .about-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.about-container .logo {
+  display: inline-block;
+  width: 25%;
+}
+@media (min-width: 1000px) {
+  .about-container .logo {
+    width: 15%;
+  }
+}
+.about-container .menu-button span {
+  background-color: black;
+}
+.about-container h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+@media (min-width: 1000px) {
+  .about-container h2 {
+    height: 10vh;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+}
+.team-text {
+  background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@media (min-width: 1000px) {
+  .about-content {
+    display: flex;
+  }
+}
+.col-1 {
+  display: flex;
+}
+.col-2 {
+  display: flex;
+}
+.info-container {
+  margin: 0 10px;
+}
+@media (min-width: 1000px) {
+  .info-container {
+    height: 75vh;
+  }
+}
+.info-container img {
+  width: 44.5vw;
+}
+@media (min-width: 1000px) {
+  .info-container img {
+    width: 100%;
+    height: auto;
+  }
+}
+.text-container {
+  padding-bottom: 10px;
+}
+.text-container h3 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0;
+}
+.text-container p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+}
+.text-container a {
+  color: black;
+}
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+div {
+  margin: 0;
+}
+img {
+  width: 100%;
+  z-index: 1;
+}
+@media (min-width: 1000px) {
+  img {
+    height: 100vh;
+  }
+}
+@media (min-width: 1000px) {
+  header {
+    width: 50vw;
+  }
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1 {
+  font-family: 'Skranji', cursive;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 41px 5%;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.logo {
+  color: #fff;
+  font-family: 'Give You Glory', cursive;
+  font-size: 1.6rem;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 15%;
+  height: auto;
+}
+@media (min-width: 1000px) {
+  .logo {
+    display: inline-block;
+  }
+}
+.carousel img {
+  min-width: 100%;
+  height: 50vh;
+}
+@media (min-width: 1000px) {
+  .carousel img {
+    height: 100vh;
+  }
+}
+.menu-container {
+  z-index: 2;
+  width: 35px;
+  height: 30px;
+  margin: 10px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.menu-button span {
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  border-radius: 2px;
+  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  width: 100%;
+  height: 4px;
+  transition-duration: 500ms;
+}
+.menu-button span:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+.menu-button span:nth-child(2) {
+  top: 13px;
+  left: 0px;
+}
+.menu-button span:nth-child(3) {
+  bottom: 0px;
+  left: 0px;
+}
+.menu-button span:nth-child(1):not(.clickMenu):hover {
+  transform: rotate(-3deg) scaleY(1.1);
+}
+.menu-button span:nth-child(2):not(.clickMenu):hover {
+  transform: rotate(3deg) scaleY(1.1);
+}
+.menu-button span:nth-child(3):not(.clickMenu):hover {
+  transform: rotate(-4deg) scaleY(1.1);
+}
+.clickMenu:nth-child(1) {
+  transform: rotate(45deg);
+  top: 13px !important;
+}
+.clickMenu:nth-child(2) {
+  transform: scale(0.1);
+}
+.clickMenu:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 13px;
+}
+li {
+  color: #fff;
+  text-align: center;
+}
+.menu {
+  display: none;
+}
+.menu ul {
+  width: 100%;
+}
+.menu li {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 32px;
+  padding: 0;
+}
+.menu li a {
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  background: #323232;
+  color: #fff;
+  border-right: 1px solid #4C4C4C;
+  padding-top: 10px;
+  opacity: 0.8;
+}
+.menu li a:hover {
+  background: #2980B9;
+}
+.menu-open {
+  width: 458px;
+  display: block;
+  position: absolute;
+  right: -10px;
+  padding: 0 2%;
+  margin-top: 0;
+  margin-right: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1000px) {
+  .main {
+    width: 50vw;
+    height: 100vh;
+  }
+  .main h1 {
+    font-size: 3rem;
+  }
+}
+.main-button {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #fff;
+  height: 35px;
+  width: 30%;
+  border-radius: 23px;
+  text-align: center;
+  background: linear-gradient(to left bottom, #133139, #00464c, #005b59, #00715d, #0e865a, #0d9062, #0a996a, #06a372, #00a38e, #00a2a5, #009eb6, #009ac0);
+  cursor: pointer;
+}
+.main-button .button-inner {
+  display: block;
+  padding-top: 10px;
+}
+@media (min-width: 1000px) {
+  .main-button {
+    width: 20%;
+  }
+}
