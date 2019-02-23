@@ -194,6 +194,9 @@ table {
     height: 75vh;
   }
 }
+.info-container img {
+  width: 44.5vw;
+}
 @media (min-width: 1000px) {
   .info-container img {
     width: 100%;
