@@ -1,6 +1,8 @@
 # guidr-UI
 Marketing and landing page for the Guidr app
 
+[Click here to see the deployed project](https://guidr-pt.github.io/guidr-UI/)
+
 ## **Role Description**
 
 You have learned all about the foundations of the Web over the past eight weeks. Now you will build a static landing page that links to a your group's application.
