@@ -146,11 +146,11 @@ table {
 }
 .about-container .logo {
   display: inline-block;
-  width: 5%;
+  width: 15%;
 }
 @media (min-width: 1000px) {
   .about-container .logo {
-    width: 5%;
+    width: 7%;
   }
 }
 .about-container .menu-button span {
